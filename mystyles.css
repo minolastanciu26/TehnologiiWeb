@@ -1,0 +1,247 @@
+/*home page*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+}
+
+nav {
+  width: 100vw;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.images img {
+  max-width: 500px;
+  height: 500px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+h1 {
+  font-family: "Cinzel Decorative-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 56px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  margin: 10px;
+}
+
+h2 {
+  font-family: "Cinzel Decorative-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 34px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 10px;
+}
+
+span {
+  font-family: "Cinzel Decorative-Bold", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Cinzel Decorative-Bold", Helvetica;
+  margin: 10px;
+  color: white;
+}
+
+.footer p {
+  background-color: white;
+  padding: 5px;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .home {
+    width: 90%;
+  }
+
+  .images img {
+    max-width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    margin: 10px;
+  }
+}
+
+
+
+
+
+/*contact page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+}
+
+h3 {
+  font-family: "Cinzel Decorative-Bold", Helvetica;
+  font-weight: 700;
+  font-size: 34px;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    width: 90%;
+  }
+
+  .images img {
+    max-width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    margin: 10px;
+  }
+}
+
+label {
+  font-family: "Cinzel Decorative-Bold", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+
+
+
+/*about page */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    width: 90%;
+  }
+
+  .images img {
+    max-width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    margin: 10px;
+  }
+}
+
+
+/*portofolio page */
+.portofolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    width: 90%;
+  }
+
+  .images img {
+    max-width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    margin: 10px;
+  }
+}
+
+
+.portofolio .descarc-CV-aici {
+  font-family: "Cinzel-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
